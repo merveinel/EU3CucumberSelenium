@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 62.685 s <<< FAILURE! - in com.vytrack.runners.FailedTestRunner
+Sales manager user(Account types)  Time elapsed: 8.369 s  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+

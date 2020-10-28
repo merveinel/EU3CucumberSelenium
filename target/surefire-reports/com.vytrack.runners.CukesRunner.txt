@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 96.184 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+Driver user(Account types)  Time elapsed: 29.556 s  <<< FAILURE!
+java.lang.AssertionError
+
+Sales manager user(Account types)  Time elapsed: 13.081 s  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+
+Store manager user(Account types)  Time elapsed: 52.678 s  <<< FAILURE!
+java.lang.AssertionError
+
